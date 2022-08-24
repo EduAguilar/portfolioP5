@@ -1,0 +1,151 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 3vh;
+  text-transform: uppercase;
+  font-weight: 100;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-repeat:no-repeat ;    
+  background-position: center center;
+  background-attachment: fixed;
+  background-size:cover ;    
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+.videoFondo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
+}
+.navbar {
+  min-height: 50px;
+  opacity: 0.9;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+.nav-item :hover{
+  opacity: 0.9;
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+
+}
+.container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.miFoto{
+  margin-top: 5%;
+  border-radius: 50%;
+}
+/* Letras con relleno */
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
+
+.black-lives-matter {
+  -webkit-text-stroke: 0.5vh white;
+  color: transparent; 
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 800;
+  background: url(https://static.vecteezy.com/system/resources/previews/003/334/931/non_2x/desktop-source-code-and-wallpaper-by-coding-and-programming-free-photo.jpg);
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0.08);
+  animation: zoomout 20s ease 500ms forwards;
+  single-animation-timeline: auto;
+}
+@keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+}
+/* Fin Letras con relleno */
+section{  
+  min-width: 100%;
+  min-height: 100%;
+}
+#portfolio, #contacto{
+  background-color: #212529;
+  /* opacity:  0.5; */
+}
+#portfolio img {
+  border-radius: 15%;
+}
+.formulario{
+  text-align: left;
+}
+/* hover styles */
+.location-listing {
+  position: relative;
+}
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+.location-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  /* transform: scale(1.1); */
+}
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(240, 234, 235, 0.4);
+  color: white;
+  border-radius: 15%;
+
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+}
+/* for touch screen devices */
+@media (hover: none) { 
+  .location-title {
+    opacity: 1;
+  }
+  .location-image img {
+    filter: blur(2px);
+  }
+}
+ .imagen:hover {
+  opacity: 1;
+  transform: scale(1.15,1.15);
+  -webkit-transform:scale(1.15,1.15);
+  -moz-transform:scale(1.15,1.15);
+  -ms-transform:scale(1.15,1.15);
+  -o-transform:scale(1.15,1.15);
+}
+.footer{
+  background-color: #212529;
+  opacity: 0.9;
+}
+.copyright{
+  text-transform: capitalize;
+  background-color: #212529;
+  text-align: center center;
+} 

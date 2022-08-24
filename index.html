@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejercicio Tu Portafolio">
+    <meta name="author" content="Aguilar Uribe Eduardo Alfredo">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Mi estilo personalizado -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Animaciones css -->
+    <link rel="stylesheet" href="./animate.min.css">
+    <!-- Iconos bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <title>Aguilar Eduardo - Portafolio</title>
+  </head> 
+
+<body>
+  <video class="videoFondo" src="./img/fondoVideoTinta.mp4" autoplay="true" muted="false" loop="true"></video>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top nav-pills">
+    <div class="container-fluid">
+      <a class="navbar-brand col" href="#">
+        <img src="https://tecnoptimus.com/wp-content/uploads/2018/04/MiLogo-300x300.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        EDUARDO AGUILAR
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse   " id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll col" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#acercaDeMi">Acerca de mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav flex-row flex-wrap ms-md-auto col">
+          <li class="nav-item col-6 col-lg-auto">
+            <a class="nav-link py-2 px-0 px-lg-2" href="https://github.com/eduaguilar" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+              <small class="d-lg-none ms-2">GitHub</small>
+            </a>
+          </li>
+          <li class="nav-item col-6 col-lg-auto">
+            <a class="nav-link py-2 px-0 px-lg-2" href="https://www.linkedin.com/in/edu-aguilar/" target="_blank" rel="noopener">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg>
+              <small class="d-lg-none ms-2">Linkedin</small>
+            </a>
+          </li>  
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Encabezado -->
+  <section class="container">
+  <header>
+    <div class="text-center">
+      <img src="./img/fotoPerfil.png" class="img-fluid miFoto animate__animated animate__fadeInDown"  alt="Foto Eduardo Aguilar">
+      <h1 class="black-lives-matter">AGUILAR EDUARDO</h1>
+      <h2 class="animate__animated animate__fadeInDown delay-800ms">
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+        <span class="nbr ltr">0</span>
+      </h2>   
+    </div>
+  </header>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <div class="container">
+    <br>
+    <h2><span id="maquinaDeEscribir"></span></h2>
+    <br>    
+    <div class="row row-cols-1 row-cols-md-3 g-4 ">
+      <div class="col img-fluid rounded imagen location-listing">   
+        <a class="location-title" href="#">Color Game</a> 
+          <div class="location-image">
+            <a href="#">
+              <img src="./img/colorGame.png" class="card-img-top" alt="Color Game">
+            </a>
+          </div>
+      </div>
+      <div class="col img-fluid rounded imagen location-listing">
+        <a class="location-title" href="#">To Do List</a> 
+          <div class="location-image">
+            <a href="#">
+              <img src="./img/toDoList.jpg" class="card-img-top" alt="To Do List">
+            </a>
+          </div>
+      </div>
+      <div class="col img-fluid rounded imagen location-listing">
+        <a class="location-title" href="#">The Weather Channel</a> 
+          <div class="location-image">
+            <a href="#">
+              <img src="./img/theWeatherChannel.jpg" class="card-img-top" alt="The Weather Channel">
+             </a>
+          </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- Acerca de mi -->
+  <section id="acercaDeMi">
+    <div class="container">
+      <br>
+      <h2><span id="maquinaDeEscribir1"></span></h2>
+      <hr>
+      <br>
+      <p>
+        Técnico Superior en Análisis y Desarrollo de Sistemas Informáticos, agilista, emprendedor, capacitador, en permanente capacitación evolutiva. Siempre dispuesto a nuevos desafíos personales y grupales.
+
+Dedicado y apasionado por brindar las mejores soluciones informáticas posibles, hardwares, reparación, mantenimiento de equipos informáticos, redes, cámaras de vigilancia, desarrollo de softwares, diseño web, capacitaciones y asesorías, son algunas de los servicios que brindo.
+
+Servicios de calidad en tiempo y forma son la distinción que busco constantemente para garantizar la satisfacción de clientes.
+
+Creo en que la capacitación personal constante es mi mayor herramienta para poder dar lo mejor de si mismo.
+<br><br>
+“Aprender es como remar contra corriente: en cuanto se deja, se retrocede.”
+<br>
+— Edward Benjamin Britten —
+      </p>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <div class="container">
+    <br>
+    <h2><span id="maquinaDeEscribir2"></span></h2>
+    <form class="formulario">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="mb-3">
+        <label for="cellphone" class="form-label">Número de teléfono</label>
+        <input type="number" class="form-control" id="cellphone">
+      </div>
+      <div class="mb-3">
+        <label for="mensajeFormulario" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensajeFormulario" rows="3"></textarea>
+      </div>
+      <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+    </div>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h6>DIRECCIÓN</h6>
+          <p style="text-transform: capitalize;">S. C. de Bariloche, Rio Negro, Argentina</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d751.0071658792594!2d-71.3175603031297!3d-41.15572587790686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b25a8ff86c5%3A0xd2a7047217e0e2af!2sTecnOptimus!5e0!3m2!1ses!2sar!4v1661307153454!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col">
+          <h6>EN LAS REDES</h6>
+          <h3>
+            <a class="bi bi-github" href="https://github.com/eduaguilar" target="_blank"></a>
+            <a class="bi bi-linkedin" href="https://www.linkedin.com/in/edu-aguilar/" target="_blank"></a>
+            <a class="bi bi-facebook " href="https://www.facebook.com/tecnoptimus.soluciones.tecnologicas/"  target="_blank"></a> 
+            <a class="bi bi-instagram" href="https://www.instagram.com/tecnoptimus/" target="_blank"></a>
+          </h3>
+        </div>
+        
+      </div>
+    </div>
+    
+  </footer> 
+  <div class="copyright">Copyright <i class="bi bi-c-circle"></i> Aguilar Eduardo 2022 </div>
+
+  <!-- JavaScript -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
